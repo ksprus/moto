@@ -1,0 +1,942 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 1310px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+/*Header*/
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+body > div > header > div > nav > button {
+    color: rgba(26, 104, 255, 1);
+}
+
+
+#navbarSupportedContent > ul > li > a {
+    color: black;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+#navbarSupportedContent > ul > li > a:hover {
+    color: rgba(26, 104, 255, 1);
+}
+
+header > .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 18px;
+}
+
+.header-contacts {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-contacts > p {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    margin-left: 27px;
+}
+
+.header-contacts > .tel {
+    font-size: 18;
+    font-weight: 700;
+    font-style: normal;
+    color: #1A68FF;
+}
+
+/*Promo*/
+
+.promo {
+    margin-top: 50px;
+}
+.promo > .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 140px;
+}
+
+.promo-description {
+    width: 100%;
+}
+
+.promo-description > .zagolovok {
+    height: 280px;
+    margin-right: 45px;
+}
+
+.promo-description > .container {
+    display: flex;
+    flex-direction: row;
+}
+.promo-description > .zagolovok > h1 {
+
+    font-family: Montserrat;
+    font-style: italic;
+    margin-top: 0;
+    font-size: 105px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: right;
+    background:linear-gradient(130.06deg, #FF843F 16.73%, #EC002A 87.87%),
+    radial-gradient(69.92% 69.08% at 21.76% 16.03%, rgba(30, 26, 255, 0.9) 0%, rgba(0, 185, 225, 0.9) 98.35%),
+    linear-gradient(0deg, #000000, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.promo-description > .zagolovok > h3 {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: 37px;
+    text-align: right;
+}
+
+.promo-positive {
+    margin-right: 134px;
+}
+
+.promo-positive p {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: left;
+
+}
+.positive-item {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.positive-item > svg {
+    margin-right: 17px;
+}
+
+.promo-want {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.promo-description > .container > a {
+    display: flex;
+    text-decoration: none;
+}
+
+.promo-want > p {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: left;
+    color: #1A68FF;
+    margin-bottom: 16px;
+    text-decoration: none;
+}
+
+.promo-want > p:hover {
+    color: rgba(255, 132, 63, 1);
+}
+
+.promo-img {
+    display: flex;
+    max-width: 792px;
+}
+
+.promo-img {
+    display: flex;
+    position: relative;
+}
+.promo-img > img {
+    height: 396px;
+    width: 678px;
+    margin-top: 28px;
+}
+
+.promo-img > .promo-1 {
+    height: 621px;
+    width: 792px;
+    position: absolute;
+    top: -80px;
+    left: -105px;
+}
+
+/*Gallery*/
+
+.gallery {
+    margin-bottom: 110px;
+}
+.gallery > .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.img-gallery:hover {
+    opacity: 0.8;
+}
+/*Offer*/
+
+.offer {
+    margin-bottom: 100px;
+}
+.offer > .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.offer-img {
+    display: flex;
+    position: relative;
+    margin-right: 155px;
+}
+
+.offer-img > img{
+    margin-top: 35px;
+    width: 643px;
+    height: 360px;
+}
+.offer-img > .offer-1 {
+    position: absolute;
+    width: 790px;
+    height: 486px;
+    top: -69px;
+    right: -142px;
+}
+
+.offer-description > h2 {
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: 44px;
+    text-align: left;
+    margin-bottom: 44px;
+}
+
+.offer-description > p {
+    font-family: Montserrat;
+    width: 473px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+
+}
+
+/*Footer*/
+
+footer {
+    position: relative;
+    margin-bottom: 55px;
+}
+
+footer > .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 18px;
+}
+
+footer > .container > nav > ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+footer > .container > nav > ul > a > li{
+   margin-right: 20px;
+   list-style-type: none;
+}
+
+footer > .container > nav > ul > a {
+    text-decoration: none;
+    color: black;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+}
+
+footer > .container > nav > ul > a:hover {
+    color: #1A68FF;
+}
+
+footer > .container > .contacts {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-contacts > .tel {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+    margin-right: 0px;
+    color: rgba(26, 104, 255, 1);
+}
+
+.footer-contacts > p {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    margin-left: 30px;
+}
+
+.contacts > .social > a {
+    margin-right: 10px;
+}
+
+.footer-contacts > a:hover {
+    fill: #FF843F;
+}
+
+
+footer > .container > .logo {
+    position: absolute;
+    right: 49%;
+
+}
+
+@media (max-width: 1337px)  {
+
+header {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+/*Promo*/
+
+.promo {
+    margin-top: 50px;
+    height: 330px;
+    margin-bottom: 60px;
+}
+    .promo-img > img {
+        height: 217px;
+        width: 374px;
+}
+
+.promo > .container {
+    max-width: 768px;
+ 
+}
+
+.promo-img > .promo-1 {
+    height: 324px;
+    width: 452px;
+    position: absolute;
+    top: -43px;
+    left: -60px;
+}
+
+.promo-description {
+    width: auto;
+    margin-left: 20px;
+}
+
+.promo-description > .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.promo-description > .zagolovok {
+    height: auto;
+}
+
+.promo-description > .zagolovok > h1 {
+
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: 67px;
+    text-align: left;
+    background:linear-gradient(130.06deg, #FF843F 16.73%, #EC002A 87.87%),
+    radial-gradient(69.92% 69.08% at 21.76% 16.03%, rgba(30, 26, 255, 0.9) 0%, rgba(0, 185, 225, 0.9) 98.35%),
+    linear-gradient(0deg, #000000, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.promo-description > .zagolovok > h3 {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: 22px;
+    margin-bottom: 33px;
+}
+
+.promo-positive p {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.promo-positive {
+    margin-right: 0;
+    margin-bottom: 28px;
+}
+
+.positive-item {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 6px;
+}
+
+.promo-img {
+    margin-right: 20px;
+}
+
+.promo-want > p {
+    margin-bottom: 10px;
+
+}
+
+/*Gallery*/
+
+.gallery {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 60px;
+}
+
+.gallery > .container {
+    max-width: 768px;
+}
+
+.img-gallery > img {
+    height: 189px;
+    width: 220px;
+}
+
+/*Offer*/
+
+.offer {
+    margin-bottom: 60px;
+}
+
+.offer > .container {
+    max-width: 768px;
+    justify-content: start;
+}
+
+.offer-img {
+    display: flex;
+    position: relative;
+    margin-right: 70px;
+}
+
+.offer-img > img{
+    height: 165px;
+    width: 293px;  
+}
+.offer-img > .offer-1 {
+    position: absolute;
+    width: 364px;
+    height: 212px;
+    top: -25px;
+    right: -68px;
+}
+
+.offer-description > h2 {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: 29px;
+    text-align: left;
+    width: 305px;
+    margin-bottom: 30px;
+    margin-top: 30px;   
+}
+
+.offer-description > p {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    width: 305px;
+    line-height: 1.4;
+}
+
+.offer-p2 {
+    display: none;
+}
+
+.offer-p3 {
+    display: none;
+}
+
+/*Footer*/
+
+footer {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+footer > .container > .logo {
+    display: none;
+}
+
+.contacts > .social {
+    position: absolute;
+    right: 43%;
+    top: 10px;
+}
+
+}
+
+@media (max-width: 991px) {
+    #navbarSupportedContent {
+        position: absolute;
+        border: 1px solid gray;
+        top: 60px;
+        padding: 20px;
+        background-color: white;
+    }    
+}
+
+
+
+@media (max-width: 767px) {
+    /*Header*/
+    header {
+        margin-bottom: 50px;
+    }
+
+    header > .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 18px;
+    }
+
+    header > .container > .logo {
+        display: flex;
+        position: absolute;
+        top: 20px;
+        right: 47%;
+ 
+    }
+
+    .header-contacts > p {
+        display: none;
+    }
+
+    .header-contacts > .tel {
+        display: inline;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 22px;
+        text-align: left;
+    }
+
+    /*Promo*/
+
+    .promo-img {
+        display: none;
+    }
+
+    .promo {
+        height: auto;
+        margin-top: 0;
+    }
+
+    .promo > .container {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .promo-description {
+        width: 100%; 
+        margin-right: 53px;
+        margin-left: 53px;
+        margin-bottom: 40px;
+    }
+
+    .promo-description > .zagolovok {
+        margin-right: 0;
+    }
+
+    .promo-description > .zagolovok > h1 {
+        text-align: center;
+    }
+
+    .promo-description > .zagolovok > h3 {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .promo-positive {
+        display: flex;
+        justify-content: space-between;
+        max-width: 400px;
+        width: -webkit-fill-available;
+        margin: 0 auto;
+        margin-bottom: 28px;
+    }
+
+    .promo-positive > .positive-item > svg {
+        display: none;
+    }
+
+    .promo-description > .container > a {
+        display: flex;
+    justify-content: center;
+    }
+
+    .promo-svg {
+        display: none;
+    }
+
+    .promo-want > p::after {
+        content: '!';
+    }
+
+    /*Gallery*/
+
+    .gallery {
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+    .gallery > .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .gallery > .container > a {
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .gallery > .container > a > .img-gallery {
+        height: 380px;
+        width: 480px;
+    }
+
+    .img-gallery > img {
+        height: 100%;
+        width: 100%;
+    }
+
+    /*Offer*/
+
+    .offer {
+        margin-bottom: 30px;
+    }
+    .offer-img {
+        display: none;
+    }
+
+    .offer-description {
+        margin: 0 auto;
+    }
+
+    .offer-description > h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .offer-description > p {
+        text-align: center;
+        line-height: 1.4;
+    }
+
+    /*Footer*/
+
+    .footer {
+        margin-bottom: 26px;
+    }
+
+    footer > .container > nav  {
+        display: none;
+    }
+
+    .contacts > .social {
+        position: static;
+    }
+
+    footer > .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+    }
+
+
+}
+
+@media (max-width: 467px) {
+    /*Header*/
+    header {
+        margin-bottom: 50px;
+    }
+
+    body > div > header > div > nav {
+        order: 2;
+    }
+
+    #navbarSupportedContent {
+        position: static;
+        border: none;
+        text-align: center;
+    }
+
+    body > div > header > div > nav > button {
+        margin: 0 auto;
+    }
+
+    #navbarSupportedContent > ul > li > a {
+        font-size: 24px;
+        line-height: 1.4;
+    }
+
+    header > .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header > .container > .logo {
+        position: static;
+        margin-bottom: 20px;
+     }
+
+    .header-contacts > p {
+        display: none;
+    }
+
+    .header-contacts > .tel {
+        display: inline;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 22px;
+        text-align: left;
+        margin-left: 0;
+    }
+
+    /*Promo*/
+
+    .promo-img {
+        display: none;
+    }
+
+    .promo {
+        height: auto;
+        margin-top: 0;
+    }
+
+    .promo > .container {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .promo-description {
+        width: 100%; 
+        margin-right: 53px;
+        margin-left: 53px;
+        margin-bottom: 40px;
+    }
+
+    .promo-description > .zagolovok {
+        margin-right: 0;
+    }
+
+    .promo-description > .zagolovok > h1 {
+        text-align: center;
+    }
+
+    .promo-description > .zagolovok > h3 {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .promo-positive {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 28px;
+    }
+
+    
+    .promo-description > .container > a {
+        display: flex;
+    justify-content: center;
+    }
+
+    .promo-svg {
+        display: none;
+    }
+
+    .promo-positive p {
+        margin: 0 auto;
+    }
+
+    .promo-want > p::after {
+        content: '!';
+    }
+
+    /*Gallery*/
+
+    .gallery {
+        margin-bottom: 0;
+    }
+    .gallery > .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .gallery > .container > a {
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .gallery > .container > a > .img-gallery {
+        height: 100%;
+        width: 100%;
+    }
+
+    .img-gallery > img {
+        height: 100%;
+        width: 100%;
+    }
+
+    /*Offer*/
+
+    .offer {
+        margin-bottom: 30px;
+    }
+    .offer-img {
+        display: none;
+    }
+
+    .offer-description {
+        margin: 0 auto;
+    }
+
+    .offer-description > h2 {
+        text-align: center;
+        width: auto;
+        margin-top: 0;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .offer-description > p {
+        text-align: center;
+        width: auto;
+        line-height: 1.4;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    /*Footer*/
+
+    .footer {
+        margin-bottom: 26px;
+    }
+
+    footer > .container > nav  {
+        display: none;
+    }
+
+    .contacts > .social {
+        position: static;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    footer > .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    footer > .container > .contacts {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contacts > .footer-contacts > p:nth-child(1) {
+        display: none;
+    }
+
+    .footer-contacts > .tel {
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
+
